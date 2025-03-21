@@ -37,18 +37,21 @@
 			  <extensions>true</extensions>
 			  <configuration>
 			    <cloudHubDeployment>
-			      <uri>https://anypoint.mulesoft.com</uri>
-			      <muleVersion>${app.runtime}</muleVersion>
-			      <username>3f6c5eeb3967480b8bb51460846b2cc7</username>
-			      <password>48Ed4eC35c824565B2B5618130a3DA1D</password>
-			      <applicationName>${cloudhub.application.name}</applicationName>
-			      <environment>DEV</environment>
-			      <region>${region}</region>
-			      <workers>${workers}</workers>
-			      <workerType>${workerType}</workerType>
-			      <properties>
-			        <key>value</key>
-			      </properties>
+				<connectedAppClientId>41c49ffc37af4e82aa825b8093cc8b40</connectedAppClientId>
+				<connectedAppClientSecret>F7FE7A829bA0438680420DA80a96245f</connectedAppClientSecret>
+				<connectedAppGrantType>client_credentials</connectedAppGrantType>
+				<uri>https://anypoint.mulesoft.com</uri>
+			      	<muleVersion>${app.runtime}</muleVersion>
+			     	<username>3f6c5eeb3967480b8bb51460846b2cc7</username>
+			      	<password>48Ed4eC35c824565B2B5618130a3DA1D</password>
+			      	<applicationName>${cloudhub.application.name}</applicationName>
+			      	<environment>DEV</environment>
+			      	<region>${region}</region>
+			      	<workers>${workers}</workers>
+			      	<workerType>${workerType}</workerType>
+			      	<properties>
+			        	<key>value</key>
+			      	</properties>
 			    </cloudHubDeployment>
 			  </configuration>
 			</plugin>
