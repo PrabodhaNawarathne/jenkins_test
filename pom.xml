@@ -42,8 +42,8 @@
 				<connectedAppGrantType>client_credentials</connectedAppGrantType>
 				<uri>https://anypoint.mulesoft.com</uri>
 			      	<muleVersion>${app.runtime}</muleVersion>
-			     	<username>3f6c5eeb3967480b8bb51460846b2cc7</username>
-			      	<password>48Ed4eC35c824565B2B5618130a3DA1D</password>
+			     	<username>0e4de907b99646f2b5c7df45f5f4b750</username>
+			      	<password>bf6572E93AA54E2b8724B7802ebA5169</password>
 			      	<applicationName>${cloudhub.application.name}</applicationName>
 			      	<environment>DEV</environment>
 			      	<region>${region}</region>
