@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="jenkins_testFlow" doc:id="2a02b501-febc-4753-86c5-3a27f5db3c1c" >
+		<scheduler doc:name="Scheduler" doc:id="2b66f9c0-67a1-4dcb-9f04-a7579410fb7f" >
+			<scheduling-strategy >
+				<fixed-frequency frequency="5" timeUnit="MINUTES"/>
+			</scheduling-strategy>
+		</scheduler>
+		<logger level="INFO" doc:name="Logger" doc:id="9b9a1701-dc9e-48f9-b961-a54c5d60007c" message='#["Deployed!!!"]'/>
+	</flow>
+</mule>
