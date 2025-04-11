@@ -41,6 +41,7 @@
 				<connectedAppClientSecret>F7FE7A829bA0438680420DA80a96245f</connectedAppClientSecret>
 				<connectedAppGrantType>client_credentials</connectedAppGrantType>
 				<uri>https://anypoint.mulesoft.com</uri>
+			  	<businessGroupId>${cloudHub.businessGroupId}</businessGroupId>
 			      	<muleVersion>${app.runtime}</muleVersion>
 			      	<applicationName>${cloudhub.application.name}</applicationName>
 			      	<environment>DEV</environment>
